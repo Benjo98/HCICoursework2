@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="reducedappt.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>My Appointments</title>
+</head>
+
+<body>
+
+    <div class="header" id="myHeader">
+        <div class="menu" href="javascript:void(0);" style="font-size:15px;" onclick="dropDown()">Menu</div>
+        <img src="NHSLogo.jpg" alt="NHS Logo blue background on white text" />
+
+        <a href="#home">Home</a>
+        <a href="#patientdetails">Patient Details</a>
+        <a href="#patientform">Patient Form</a>
+        <a href="#about">About</a>
+    </div>
+	
+	<h1> YOUR NHS NUMBER: 0123456 </h1><br>
+	
+	
+<ul>	
+	<li><h2> Appointment Time: </h2></li>
+	<h3 style="color:blue;"> 16:00pm </h3><br>
+	
+	<li><h2> Building: </h2></li>
+	<h3 style="color:blue;"> Mary Anne Ward, floor 2. </h3><br>
+	
+	<li><h2> Doctor: </h2></li>
+	<h3 style="color:blue;"> Dr John Smith </h3><br>
+	
+	<li><h2> Appointment reason: </h2></li>
+	<h3 style="color:blue;"> Health check up </h3>
+</ul>
+	   
+	   
+	   <button class="button button1">Blue</button>
+	   
+	   
+	   
+    <footer>
+        <p class="nhsuk-footer__copyright">&copy; Crown copyright</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="reducedappt.js"></script>
+</body>
+</html>
